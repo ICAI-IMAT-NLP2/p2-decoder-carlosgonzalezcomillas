@@ -44,6 +44,7 @@ class AttentionHead(nn.Module):
             Tensor: Output tensor after applying attention.
             Tensor: Attention weights.
         """
+
         # TODO: Implement the scaled dot-product attention mechanism, now with masking.
         dim_k = k.size(-1)
 
